@@ -1,11 +1,11 @@
-import React, { useRef } from "react";
-import "./create.css";
-import "./responsive.css";
+import { useRef } from 'react';
+import React from 'react';
+import '../create/create.css'
 import { Link } from "react-router-dom";
 import leftArrow from "../../resources/left arrow.png"; // Import left arrow PNG
 import rightArrow from "../../resources/right arrow.png"; // Import right arrow PNG
 
-const Create = () => {
+const Already = () => {
   const sliderRef = useRef(null);
 
   const scrollLeft = () => {
@@ -107,11 +107,13 @@ const Create = () => {
           <div className="signup">
             <div className="top">
               <img src="../../resources/logo.png" alt="skitbit-logo" />
-              <h1 style={{ textTransform: "lowercase" }}>login to your account</h1>
+              <h1 style={{ textTransform: "lowercase" }}>create an account</h1>
               <p>Let’s Get Started your 30 Day Trial</p>
             </div>
             <div className="midd">
               <form action={""}>
+                <input placeholder="username" type="text" />
+                <hr />
                 <input placeholder="email" type="email" />
                 <hr />
                 <input placeholder="password" type="password" />
@@ -119,7 +121,7 @@ const Create = () => {
               </form>
             </div>
             <div className="bot">
-              <button className="btn">Login</button>
+              <button className="btn">Create an account</button>
               <button>
                 <p>
                   <img
@@ -143,13 +145,14 @@ const Create = () => {
               </button>
             </div>
             <p className="bott">
-              Don't have an account? <Link to="/login">Sign up</Link>
+              Already have an account ? <Link to="/create-account">login</Link>
             </p>
           </div>
+          <div className="signin"></div>
         </div>
       </div>
     </>
   );
 };
 
-export default Create;
+export default Already

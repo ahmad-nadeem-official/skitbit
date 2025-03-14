@@ -1,0 +1,92 @@
+@media (max-width: 850px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .split-left {
+        display: none; /* Hide the slider section */
+    }
+
+    .split-right {
+        flex: 100%;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .signup {
+        width: 90%;
+        height: auto;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .signup .top {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .signup .top img {
+        margin: 0 auto;
+    }
+
+    .signup p {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .signup .btn,
+    .signup button {
+        width: 100%;
+    }
+
+    .signup input[type="text"],
+    .signup input[type="email"],
+    .signup input[type="password"] {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .bot {
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .bott {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .midd {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .split-left {
+        flex: 45%; /* Reduce the width of slider section */
+    }
+
+    .split-right {
+        flex: 55%; /* Increase width of the form section */
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .split-left {
+        display: none; /* Hide the slider on small screens */
+    }
+
+    .split-right {
+        flex: 100%; /* Make the form take full width */
+        justify-content: center;
+        padding: 3rem 1rem;
+    }
+
+    .signup {
+        width: 90%; /* Make the form responsive */
+    }
+}
