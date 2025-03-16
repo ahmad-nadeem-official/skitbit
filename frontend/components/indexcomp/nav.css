@@ -1,0 +1,118 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5%;
+    background-color: white;
+}
+
+/* Logo */
+.logo {
+    height: 35px;
+    cursor: pointer;
+}
+
+.newlogo{
+   display: none;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
+    border-radius: 30px;
+    padding: 10px 15px;
+    width: 350px;
+}
+
+.search-bar svg {
+    margin-right: 8px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* Right Section (Signup + Profile) */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Signup Button */
+.signup-btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    opacity: 0.8;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media (max-width: 850px) {
+    .nav {
+        padding: 10px 3%;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .newlogo{
+        display: block;
+    }
+
+    .search-bar {
+        width: 250px;
+    }
+    
+    .nav img {
+        height: 30px;
+    }
+
+    .signup-btn{
+        display: none;
+    }
+
+    .profile-img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
+
+
+
+

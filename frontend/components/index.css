@@ -1,0 +1,9 @@
+.product {
+    display: flex;
+    flex-wrap: wrap; /* Ensures cards wrap properly */
+    gap: 16px; /* Adds space between cards */
+    justify-content: center; /* Centers the cards */
+    margin-top: 2%;
+    padding-bottom: 6%;
+}
+  

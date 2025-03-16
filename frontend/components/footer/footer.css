@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.footer{
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+    background-color: black;
+    height: 380px;
+    color: white;
+}
+
+.footer .footer-container{
+    display: flex;
+    flex-direction: column;
+    padding: 83px 92px;
+}
+
+.footer-container hr{
+    color: #384048;
+}
+
+.top-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+.top1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top2{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.top2 input{
+    width: 240px;
+    height: 37px;
+    border-radius: 32px;
+    border: none;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    background-color: #3B3C42;
+    color: white;
+
+}
+
+.top2 input::placeholder {
+    color: white; 
+}
+
+.top2 button{
+    width: 100px;
+    height: 37px;
+    border-radius: 32px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.bot-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #384048;
+    padding: 50px 0 0 0
+}
+
+.bot-foot .social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.social .fa{
+    width: 144px;
+    height: 38px;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #3B3C42;
+    border-radius: 32px;
+}
+
+@media (max-width: 850px) {
+    .footer{
+        height: 500px;
+    }
+
+    .footer-container{
+        margin-left: -5%;
+        margin-top: -5%;
+    }
+    .top-foot{
+        flex-direction: column;
+        gap: 102px;
+        font-size: 20px;
+    }
+
+    .bot-foot{
+        flex-direction: column;
+        gap: 9px;
+    }
+
+    .bot-foot span{
+        display: none;
+    }
+
+    .social .fa{
+        justify-content: center;
+        width: 70px;
+        height: 47px;
+    }
+
+    .copy{
+        font-size: 20px;
+    }
+
+}
