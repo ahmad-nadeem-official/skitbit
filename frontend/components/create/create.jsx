@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import "./create.css";
 import "./responsive.css";
 import { Link } from "react-router-dom";
-import leftArrow from "../../public/resources/left arrow.png"; // Import left arrow PNG
-import rightArrow from "../../public/resources/right arrow.png"; // Import right arrow PNG
+import leftArrow from "/resources/left arrow.png"; // Import left arrow PNG
+import rightArrow from "/resources/right arrow.png"; // Import right arrow PNG
 
 const Create = () => {
   const sliderRef = useRef(null);
@@ -31,7 +31,7 @@ const Create = () => {
       <div className="main">
         <div className="split-left">
           <div className="slider-wrapper">
-            <img src="../../public/resources/bitlogo.png" alt="skitbit-logo" />
+            <img src="/resources/bitlogo.png" alt="skitbit-logo" />
             {/* Left Arrow */}
             <button className="arrow left-arrow" onClick={scrollLeft}>
               <img src={leftArrow} alt="Left Arrow" />
@@ -40,47 +40,47 @@ const Create = () => {
             <div className="slider" ref={sliderRef}>
               <img
                 id="si1"
-                src="../../public/resources/login-images/skitbit-image2.jpeg"
+                src="/resources/login-images/skitbit-image2.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si2"
-                src="../../public/resources/login-images/skitbit-image4.jpeg"
+                src="/resources/login-images/skitbit-image4.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si3"
-                src="../../public/resources/login-images/skitbit-image5.jpeg"
+                src="/resources/login-images/skitbit-image5.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si4"
-                src="../../public/resources/login-images/skitbit-image6.jpeg"
+                src="/resources/login-images/skitbit-image6.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si5"
-                src="../../public/resources/login-images/skitbit-image7.jpeg"
+                src="/resources/login-images/skitbit-image7.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si6"
-                src="../../public/resources/login-images/skitbit-image8.jpeg"
+                src="/resources/login-images/skitbit-image8.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si7"
-                src="../../public/resources/login-images/skitbit-image9.jpeg"
+                src="/resources/login-images/skitbit-image9.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si8"
-                src="../../public/resources/login-images/skitbit-image1.jpeg"
+                src="/resources/login-images/skitbit-image1.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si9"
-                src="../../public/resources/login-images/skitbit-image3.jpeg"
+                src="/resources/login-images/skitbit-image3.jpeg"
                 alt="skitbit"
               />
             </div>
@@ -106,7 +106,7 @@ const Create = () => {
         <div className="split-right">
           <div className="signup">
             <div className="top">
-              <img src="../../public/resources/logo.png" alt="skitbit-logo" />
+              <img src="/resources/logo.png" alt="skitbit-logo" />
               <h1 style={{ textTransform: "lowercase" }}>login to your account</h1>
               <p>Let’s Get Started your 30 Day Trial</p>
             </div>
@@ -124,7 +124,7 @@ const Create = () => {
                 <p>
                   <img
                     className="aut-img"
-                    src="../../public/resources/google.png"
+                    src="/resources/google.png"
                     alt="google.png"
                   
                   />
@@ -135,7 +135,7 @@ const Create = () => {
                 <p>
                   <img
                     className="aut-img"
-                    src="../../public/resources/apple.png"
+                    src="/resources/apple.png"
                     alt="apple.png"
                   />
                   Continue With Apple
