@@ -2,8 +2,8 @@ import { useRef } from 'react';
 import React from 'react';
 import '../create/create.css'
 import { Link } from "react-router-dom";
-import leftArrow from "../../resources/left arrow.png"; // Import left arrow PNG
-import rightArrow from "../../resources/right arrow.png"; // Import right arrow PNG
+import leftArrow from "../../public/resources/left arrow.png"; // Import left arrow PNG
+import rightArrow from "../../public/resources/right arrow.png"; // Import right arrow PNG
 
 const Already = () => {
   const sliderRef = useRef(null);
@@ -40,47 +40,47 @@ const Already = () => {
             <div className="slider" ref={sliderRef}>
               <img
                 id="si1"
-                src="../../resources/login-images/skitbit-image2.jpeg"
+                src="../../public/resources/login-images/skitbit-image2.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si2"
-                src="../../resources/login-images/skitbit-image4.jpeg"
+                src="../../public/resources/login-images/skitbit-image4.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si3"
-                src="../../resources/login-images/skitbit-image5.jpeg"
+                src="../../public/resources/login-images/skitbit-image5.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si4"
-                src="../../resources/login-images/skitbit-image6.jpeg"
+                src="../../public/resources/login-images/skitbit-image6.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si5"
-                src="../../resources/login-images/skitbit-image7.jpeg"
+                src="../../public/resources/login-images/skitbit-image7.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si6"
-                src="../../resources/login-images/skitbit-image8.jpeg"
+                src="../../public/resources/login-images/skitbit-image8.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si7"
-                src="../../resources/login-images/skitbit-image9.jpeg"
+                src="../../public/resources/login-images/skitbit-image9.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si8"
-                src="../../resources/login-images/skitbit-image1.jpeg"
+                src="../../public/resources/login-images/skitbit-image1.jpeg"
                 alt="skitbit"
               />
               <img
                 id="si9"
-                src="../../resources/login-images/skitbit-image3.jpeg"
+                src="../../public/resources/login-images/skitbit-image3.jpeg"
                 alt="skitbit"
               />
             </div>
@@ -106,7 +106,7 @@ const Already = () => {
         <div className="split-right">
           <div className="signup">
             <div className="top">
-              <img src="../../resources/logo.png" alt="skitbit-logo" />
+              <img src="../../public/resources/logo.png" alt="skitbit-logo" />
               <h1 style={{ textTransform: "lowercase" }}>create an account</h1>
               <p>Let’s Get Started your 30 Day Trial</p>
             </div>
@@ -126,7 +126,7 @@ const Already = () => {
                 <p>
                   <img
                     className="aut-img"
-                    src="../../resources/google.png"
+                    src="../../public/resources/google.png"
                     alt="google.png"
                   
                   />
@@ -137,7 +137,7 @@ const Already = () => {
                 <p>
                   <img
                     className="aut-img"
-                    src="../../resources/apple.png"
+                    src="../../public/resources/apple.png"
                     alt="apple.png"
                   />
                   Continue With Apple

@@ -24,8 +24,8 @@ const Nav = () => {
   return (
     <nav className="nav">
       {/* Logo */}
-      <img src="../../resources/logo.png" alt="skitbit-logo" className="logo" />
-      <img src="../../resources/favicon.svg" alt="skitbit-logo" className="newlogo" />
+      <img src="../../public/resources/logo.png" alt="skitbit-logo" className="logo" />
+      <img src="../../public/resources/favicon.svg" alt="skitbit-logo" className="newlogo" />
 
       {/* Search Bar */}
       <div className="search-bar">
@@ -46,7 +46,7 @@ const Nav = () => {
 
       <div className="nav-right">
         <button className="signup-btn" onClick={() => navigate('/create-account')}>Sign up</button>
-        <img src="../../resources/profile.png" alt="skitbit-profile-image" className="profile-img" />
+        <img src="../../public/resources/profile.png" alt="skitbit-profile-image" className="profile-img" />
       </div>
     </nav>
   );

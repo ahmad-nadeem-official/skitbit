@@ -16,7 +16,7 @@ const Filter = () => {
   return (
     <>
     <div className="filter-container">
-      <div className="filter"><img src="../../resources/filter.png" alt="skitbit-image"/><h5>Filter</h5></div>
+      <div className="filter"><img src="../../public/resources/filter.png" alt="skitbit-image"/><h5>Filter</h5></div>
       <div className="hash"><h5>Character Animation</h5></div>
       <div className="filter"><h5>Animation GIFS</h5></div>
       <div className="filter"><h5>Animation for Kids</h5></div>
@@ -25,8 +25,8 @@ const Filter = () => {
       <div className="filter"><h5>Skit one memebership</h5></div>
     </div>
     <div className="filter-scroller">
-      <div className="lefti"><img src="../../resources/left-arrow.png" alt="skitbit"/></div>
-      <div className="righti"><img src="../../resources/right-arrow.png" alt="skitbit"/></div>
+      <div className="lefti"><img src="../../public/resources/left-arrow.png" alt="skitbit"/></div>
+      <div className="righti"><img src="../../public/resources/right-arrow.png" alt="skitbit"/></div>
     </div>
     </>
   );

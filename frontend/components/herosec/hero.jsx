@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "./hero.css";
 
 const sliderImages = [
-  "/resources/login-images/skitbit-image1.jpeg",
-  "/resources/login-images/skitbit-image2.jpeg",
-  "/resources/login-images/skitbit-image3.jpeg",
-  "/resources/login-images/skitbit-image4.jpeg",
-  "/resources/login-images/skitbit-image5.jpeg",
+  "public//resources/login-images/skitbit-image1.jpeg",
+  "public//resources/login-images/skitbit-image2.jpeg",
+  "public//resources/login-images/skitbit-image3.jpeg",
+  "public//resources/login-images/skitbit-image4.jpeg",
+  "public//resources/login-images/skitbit-image5.jpeg",
 ];
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
       {/* Left Arrow */}
       <button className="hero-slider-arrow hero-left-arrow" onClick={prevSlide}>
         <div className="hero-arrow-circle">
-          <img src="/resources/leftarrow.png" alt="Left Arrow" />
+          <img src="/public/resources/leftarrow.png" alt="Left Arrow" />
         </div>
       </button>
 
@@ -44,7 +44,7 @@ const Hero = () => {
       {/* Right Arrow */}
       <button className="hero-slider-arrow hero-right-arrow" onClick={nextSlide}>
         <div className="hero-arrow-circle">
-          <img src="/resources/rightarrow.png" alt="Right Arrow" />
+          <img src="/public/resources/rightarrow.png" alt="Right Arrow" />
         </div>
       </button>
 

@@ -12,7 +12,7 @@ const Card = (props) => {
         </div>
         <img src={props.img} alt="skitbit-image" />
         <div className="card-bot">
-          <img src="../../resources/rating.png" alt="skitbit-images"/>
+          <img src="../../public/resources/rating.png" alt="skitbit-images"/>
           <h6>5.0</h6>
         </div>
       </div>
