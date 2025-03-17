@@ -8,6 +8,9 @@
 
 /* Navbar */
 .nav {
+    position: sticky; /* Sticky navbar itself */
+    top: 0; /* Sticks to the top */
+    z-index: 1000; /* Keeps it on top */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,6 +30,8 @@
 
 /* Search Bar */
 .search-bar {
+    position: relative; /* No need for sticky here */
+    z-index: 50000004561650451651856162; 
     display: flex;
     align-items: center;
     background-color: #f3f4f6;
