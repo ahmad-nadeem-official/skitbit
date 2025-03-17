@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.table-container {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.pricing-table {
+  margin-left: -54%;
+  width: 41%; /* Reduced width to make it compact */
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: white;
+  border: 1px solid #ddd;
+  font-size: 14px; /* Reduce font size */
+}
+
+.pricing-table th,
+.pricing-table td {
+  border: 1px solid #ddd;
+  padding: 8px; /* Reduced padding */
+}
+
+td{
+  width: 17%;
+}
+
+th{
+  width: 17%;
+}
+
+.pricing-table th {
+  background: #f9f9f9;
+  font-weight: bold;
+}
+
+.package-header {
+  text-align: center;
+  padding: 5px;
+}
+
+.package-header .price {
+  font-size: 14px; /* Smaller font */
+  font-weight: bold;
+}
+
+.package-header .title {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.package-header .desc {
+  font-size: 11px;
+  color: gray;
+}
+
+.package-header .detail {
+  font-size: 10px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.select-btn {
+  background: black;
+  color: white;
+  padding: 5px 15px; /* Smaller button */
+  border: none;
+  border-radius: 15px;
+  font-size: 12px; /* Adjust button font size */
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.select-btn:hover {
+  background: #333;
+}
+
+input[type="radio"] {
+  margin-right: 3px;
+}
+
+@media (max-width: 850px) {
+  .table-container{
+    display: none;
+  }
+}
