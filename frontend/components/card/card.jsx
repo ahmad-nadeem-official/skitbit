@@ -1,7 +1,9 @@
 import React from "react";
+import { Link,useNavigate } from "react-router-dom";
 import "./card.css";
 
 const Card = (props) => {
+  const navigate = useNavigate();
   return (
     <>
     <div className="card">
@@ -18,7 +20,7 @@ const Card = (props) => {
       </div>
       <div className="card2">
         <p>{props.desc}</p>
-        <span className="view-btn">view</span>
+        <span className="view-btn" onClick={() => navigate('/details')}>view</span>
       </div>
     </div>
     </>
