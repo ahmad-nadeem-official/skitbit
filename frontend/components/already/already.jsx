@@ -107,7 +107,7 @@ const Already = () => {
           <div className="signup">
             <div className="top">
               <img src="/resources/logo.png" alt="skitbit-logo" />
-              <h1 style={{ textTransform: "lowercase" }}>create an account</h1>
+              <h1 className="game" style={{ textTransform: "lowercase"}}>create an account</h1>
               <p>Let’s Get Started your 30 Day Trial</p>
             </div>
             <div className="midd">

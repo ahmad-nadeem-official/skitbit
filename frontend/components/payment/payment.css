@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.pay {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.pay-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: auto;
+}
+
+.pay-l-top {
+    background-color: #f8f8f8;
+    padding: 20px 1px 1px 1px;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pay-l-top h6 {
+    color: #222325;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    margin-left: 22px;
+}
+
+.pay-l-top1 {
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.main{
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+}
+
+
+.main p {
+    font-size: 14px;
+    color: #62646A;
+    margin: 4px 0;
+}
+
+.main h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #62646A;
+    margin: 5px 0;
+}
+
+.edit {
+    border: 1px solid black;
+    padding: 13px 25px;
+    border-radius: 32px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.edit:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.pay-l-mid {
+    background-color: #f8f8f8;
+    padding: 20px 1px 1px 1px;
+    border-radius: 12px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pay-l-mid h6 {
+    color: #222325;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    margin-left: 22px;
+}
+
+.pay-l-mid1 {
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.mian2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-i {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-i input {
+    accent-color: black;
+    width: 16px;
+    height: 16px;
+}
+
+.main-i img {
+    width: 40px;
+    height: auto;
+}
+
+.mian-j p {
+    margin: 0;
+    font-size: 11px;
+    color: #62646A;
+}
+
+.mian2:last-child {
+    font-size: 14px;
+    font-weight: 500;
+    color: #62646A;
+    cursor: pointer;
+    padding: 10px 0px;
+    text-align: left;
+    border-top: 1px solid #e0e0e0;
+}
+
+.pay-l-bot {
+    background-color: #f8f8f8;
+    padding: 20px 1px 1px 1px;
+    border-radius: 12px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pay-l-bot h6 {
+    color: #222325;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    margin-left: 22px;
+}
+
+.pay-l-bot1 {
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.wrap-d{
+    display: flex;
+    flex-direction: row;
+    margin-left: 514px;
+    gap: -536px;
+}
+
+.main-x {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-x input {
+    accent-color: black;
+    width: 16px;
+    height: 16px;
+}
+
+.main-x img {
+    width: 40px;
+    height: auto;
+}
+
+.mian-h p {
+    margin: 0;
+    font-size: 11px;
+    color: #62646A;
+}
+
+.mian3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: -650px;
+}
+
+.mian3x{
+    position: relative;
+    z-index: 100000;
+    left:226px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #62646A;
+    margin-left: 220px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-right: -37px;
+}
+
+
+.mian3x:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.formi {
+    padding: 20px 1px 1px 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Payment Form */
+.payment-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* First Row: Card Number, Expiration Date, CVV */
+.first-row {
+    display: flex;
+    gap: 10px;
+}
+
+.first-row .input-group {
+    flex: 1;
+}
+
+/* Second Row: First Name, Last Name */
+.second-row {
+    display: flex;
+    gap: 10px;
+}
+
+.second-row .input-group {
+    flex: 1;
+}
+
+/* Third Row: Checkbox */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #222325;
+}
+
+/* Input Fields */
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #62646A;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.input-group input {
+    background-color: #F1F1F1;
+    border: none;
+    padding: 12px;
+    border-radius: 32px;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.first-row .input-group:nth-child(1) {
+    flex: 2; /* Increase width for Card Number */
+}
+
+.first-row .input-group:nth-child(2),
+.first-row .input-group:nth-child(3) {
+    flex: 1; /* Keep Expiration Date and CVV smaller */
+}
+
+.main-i input[type="radio"],
+.main-x input[type="radio"] {
+    accent-color: black;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #62646A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+input[type="radio"]:checked {
+    border: 6px solid black;
+}
+
+
+.pay-right {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 16px;
+}
+
+/* Top Section (Image and Title) */
+.pay-r-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pay-r-top img {
+    width: 71px;
+    height: 51px;
+    border-radius: 0px;
+}
+
+.pay-r-top p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #62646A;
+    margin: 0;
+}
+
+/* Middle Section (Time & Price) */
+.pay-r-mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #62646A;
+}
+
+/* Delivery & Revisions */
+.pay-r-mid2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.midi, .midj {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #62646A;
+}
+
+.midi img, .midj img {
+    width: 16px;
+    height: 16px;
+}
+
+/* Services List */
+
+.bot{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    margin-top: -4%;
+    margin-left: -29%;
+}
+
+.servs{
+    margin-left: 23%;
+    width: auto;
+    background-color: white;
+
+}
+
+.servs p {
+    font-size: 14px;
+    color: #222325;
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.servs span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Confirm & Pay Button */
+.p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    border-radius: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.p:hover {
+    background-color: #333;
+}
+
+
+@media (max-width: 850px) {
+    .pay {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 0;
+    }
+
+    .pay-left p{
+        font-size: 11px;
+    }
+
+    .pay-l-top .mm{
+        margin-left: 16px;
+    }
+
+    .pay-l-top h6{
+        margin-left: -45px;
+    }
+    
+    .pay-left, .pay-right {
+        width: 100%;
+    }
+
+    .pay-l-top{
+        width: 100%;
+    }
+    
+    .pay-l-top, .pay-l-bot {
+        padding: 20px 1px 1px 1px;
+    }
+    
+    /* .pay-l-top h6, .pay-l-bot h6 {
+        font-size: 14px;
+        margin-left: 10px;
+    } */
+    
+    .main {
+        width: 100%;
+        height: auto;
+    }
+
+    .mian3{
+        margin-left: -446px;
+    }
+
+    .mian3x{
+        display: none;
+    }
+    
+    .edit {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    
+    .pay-l-mid {
+        display: none;
+    }
+    
+    .pay-right {
+        padding: 15px;
+    }
+    
+    .pay-r-top p {
+        font-size: 18px;
+    }
+    
+    .pay-r-mid {
+        font-size: 20px;
+    }
+    
+    .pay-r-mid2 {
+        gap: 10px;
+    }
+    
+    .midi, .midj {
+        font-size: 12px;
+    }
+    
+    .servs p {
+        font-size: 12px;
+    }
+    
+    .p {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 850px) {
+    .first-row, .second-row {
+        flex-direction: column;
+    }
+
+    /* Make Card Number full width */
+    .first-row .input-group:nth-child(1) {
+        flex: 1;
+    }
+
+    /* Adjust Expiration Date & CVV */
+    .first-row .input-group:nth-child(2),
+    .first-row .input-group:nth-child(3) {
+        flex: 1;
+        width: 100%;
+    }
+
+    /* Adjust First Name & Last Name */
+    .second-row .input-group {
+        flex: 1;
+        width: 100%;
+    }
+}

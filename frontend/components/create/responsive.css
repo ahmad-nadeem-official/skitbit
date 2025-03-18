@@ -16,7 +16,7 @@
     }
 
     .signup {
-        width: 90%;
+        width: 111%;
         height: auto;
         margin: 0;
         padding: 1rem;
@@ -28,8 +28,23 @@
         margin-bottom: 15px;
     }
 
+    .signup .top p{
+        display: none;
+    }
+
     .signup .top img {
-        margin: 0 auto;
+        position: relative;
+        z-index: 4000;
+        top: -101px;
+        left: 74px;
+        height: 2rem;
+        width: 12rem;
+    }
+
+    .signup .top h1 {
+        font-size: 1.5rem;
+        font-weight: 53;
+        margin-left: -123px;
     }
 
     .signup p {
@@ -56,11 +71,20 @@
 
     .bott {
         text-align: center;
+        position: relative;
+        z-index: 500555;
+        bottom: -66px;
         margin-right: 0;
     }
 
     .midd {
         margin-left: 0;
+    }
+
+    .bot .bott .sp{
+        position: relative;
+        z-index: 500555;
+        bottom: -66px;
     }
 }
 
@@ -87,6 +111,6 @@
     }
 
     .signup {
-        width: 90%; /* Make the form responsive */
+        width: 111%; /* Make the form responsive */
     }
 }

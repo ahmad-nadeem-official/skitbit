@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.req {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 43px 16px 21px 16px;
+    font-family: "Inter", sans-serif;
+    background-color: white;
+    margin-left: 31px;
+}
+
+.req .req1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.req1 .tag {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 2px;
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.req1 h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.req1 p {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin: 0;
+}
+
+.req1 .cng{
+    color: #999A9B;
+}
+
+/* Responsive Design */
+@media (max-width: 850px) {
+    .req {
+        margin-left: 4px;
+        overflow-x:auto;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE/Edge */
+    }
+    .scroller::-webkit-scrollbar {
+        display: none;
+    }
+
+    .req .req1 {
+        flex-direction: row;
+        gap: 12px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .req1 .tag {
+        height: 22px;
+        width: 22px;
+        font-size: 14px;
+    }
+
+    .req1 h5 {
+        font-size: 14px;
+    }
+
+    .req1 p {
+        font-size: 16px;
+    }
+
+    .req1 .cng {
+        font-size: 14px;
+    }
+}

@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link,useNavigate } from "react-router-dom";
 import './detailed.css';
 
 const D1 = () => {
+  const navigate = useNavigate();
   return (
     <>
     <div className="dtop">
@@ -77,7 +79,7 @@ const D1 = () => {
             <p>X-ray view</p>
         </div>
         </div>
-        <button className="continue-btn">Continue <img src="resources/whiter.png" alt="skitbit"/></button>
+        <button className="continue-btn" onClick={() => navigate('/order')}>Continue <img src="resources/whiter.png" alt="skitbit"/></button>
     </div>
     </div>
     </>

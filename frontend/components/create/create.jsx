@@ -143,7 +143,7 @@ const Create = () => {
               </button>
             </div>
             <p className="bott">
-              Don't have an account? <Link to="/login">Sign up</Link>
+              Don't have an account? <span className="sp"><Link to="/login">Sign up</Link></span>
             </p>
           </div>
         </div>
