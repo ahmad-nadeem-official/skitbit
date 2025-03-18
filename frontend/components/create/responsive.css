@@ -89,28 +89,15 @@
 }
 
 
-@media screen and (max-width: 1200px) {
-    .split-left {
-        flex: 45%; /* Reduce the width of slider section */
-    }
-
-    .split-right {
-        flex: 55%; /* Increase width of the form section */
+@media (min-width: 851px) and (max-width: 1200px) {
+    .slider-wrapper{
+        width: 92%;
+        height: 102%;
     }
 }
 
 @media screen and (max-width: 850px) {
     .split-left {
         display: none; /* Hide the slider on small screens */
-    }
-
-    .split-right {
-        flex: 100%; /* Make the form take full width */
-        justify-content: center;
-        padding: 3rem 1rem;
-    }
-
-    .signup {
-        width: 111%; /* Make the form responsive */
     }
 }

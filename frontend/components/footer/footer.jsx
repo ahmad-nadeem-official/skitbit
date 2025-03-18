@@ -19,10 +19,10 @@ const Footer = () => {
             {/* <hr/> */}
             <div className="bot-foot">
                 <div className="social">
-                  <div className="fa"><img src="/resources/social/x.png" alt="linkedin"/><span>LinkedIn</span></div>
-                  <div className="fa"><img src="/resources/social/x.png" alt="twitter"/><span>Twitter</span></div>
-                  <div className="fa"><img src="/resources/social/insta.png" alt="instagram"/><span>Instagram</span></div>
-                  <div className="fa"><img src="/resources/social/fa.png" alt="facebook"/><span>Facebook</span></div>
+                  <div className="fa"><img src="/resources/in." alt=""/><span>LinkedIn</span></div>
+                  <div className="fa"><img src="/resources/x.pn" alt=""/><span>Twitter</span></div>
+                  <div className="fa"><img src="/resources/insta.ng" alt=""/><span>Instagram</span></div>
+                  <div className="fa"><img src="/resources/fb.pn" alt=""/><span>Facebook</span></div>
                 </div>
                 <div className="copy">
                  <p>&copy; Copyright 2025 Skitbit International.</p>

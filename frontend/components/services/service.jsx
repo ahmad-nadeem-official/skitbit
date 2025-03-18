@@ -12,6 +12,10 @@ const Service = () => {
         <a href="#" >Explainer Videos</a>
         <a href="#" >Product videos</a>
         <a href="#" >AI videos</a>
+        <a href="#" >Sepcial promos</a>
+        <a href="#" >blender graphics</a>
+        <a href="#" >game graphics</a>
+        <a href="#" >unreal engin</a>
         <span className="new-badge">New</span>
       </div>
     </div>

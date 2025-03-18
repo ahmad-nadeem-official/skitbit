@@ -23,6 +23,11 @@ const Filter = () => {
       <div className="filter"><h5>Animation for Streamers</h5></div>
       <div className="filter"><h5>Animation for business</h5></div>
       <div className="filter"><h5>Skit one memebership</h5></div>
+      <div className="filter"><h5>Skit one pro go</h5></div>
+      <div className="filter"><h5>Skit unreal snippets</h5></div>
+      <div className="filter"><h5>Skit blender snippets</h5></div>
+      <div className="filter"><h5>Skit gadot templates</h5></div>
+      <div className="filter"><h5>gta v characters</h5></div>
     </div>
     <div className="filter-scroller">
       <div className="lefti"><img src="/resources/left-arrow.png" alt="skitbit"/></div>

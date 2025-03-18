@@ -36,10 +36,19 @@ p {
 
 
 @media (max-width: 850px) {
+
+
+    .d3{
+        margin-left: 22px;
+    }
+
+    .di{
+        margin-left: 22px;
+    }
     .dmid {
         width: 90%;
-        margin-top: -80px;
-        margin-left: 20px;
+        margin-top: 8px;
+        margin-left: 33px;
     }
 
     h2 {
@@ -47,10 +56,14 @@ p {
         margin-bottom: 8px;
     }
 
-    p {
+    .dmid1 p {
         font-size: 14px;
         line-height: 1.4;
         margin: 4px 0;
+    }
+
+    .dmid2 .spe{
+        max-width: 100% !important;
     }
 
     .dmid1 {

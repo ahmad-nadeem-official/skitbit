@@ -89,3 +89,20 @@
   text-align: center; /* Ensures text alignment */
   cursor: pointer;
 }
+
+
+@media (max-width: 850px){
+  .card{
+    width: 382px;
+    height: 132%;
+  }
+  .card-container{
+    width: 98%;
+    margin-top: 4px;
+  }
+
+  .card-container img{
+    margin-left: 39px;
+  }
+
+}

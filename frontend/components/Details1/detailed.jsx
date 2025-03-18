@@ -8,7 +8,7 @@ const D1 = () => {
     <>
     <div className="dtop">
         <div className="dtop-left">
-            <h2>3D Product Animation for tech products & Gadgets</h2>
+            <h2 className='d3'>3D Product Animation for tech products & Gadgets</h2>
             <img className="di" src="resources/rated.png" alt="skitbit-imges" />
             <div className="p-detail">
                 <img className="ti" src="resources/detail.png" alt="skitbit-images"/>

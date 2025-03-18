@@ -1,65 +1,26 @@
-import React, { useState } from "react";
-import "./hero.css";
-
-const sliderImages = [
-  "/resources/login-images/skitbit-image1.jpeg",
-  "/resources/login-images/skitbit-image2.jpeg",
-  "/resources/login-images/skitbit-image3.jpeg",
-  "/resources/login-images/skitbit-image4.jpeg",
-  "/resources/login-images/skitbit-image5.jpeg",
-];
+import React from 'react';
+import './hero.css'
 
 const Hero = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev === sliderImages.length - 1 ? 0 : prev + 1));
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev === 0 ? sliderImages.length - 1 : prev - 1));
-  };
-
   return (
-    <div className="hero-slider-container">
-      {/* Left Arrow */}
-      <button className="hero-slider-arrow hero-left-arrow" onClick={prevSlide}>
-        <div className="hero-arrow-circle">
-          <img src="/resources/leftarrow.png" alt="Left Arrow" />
-        </div>
-      </button>
-
-      {/* Slide Images */}
-      <div className="hero-slider-wrapper">
-        {sliderImages.map((image, index) => (
-          <div
-            key={index}
-            className={`hero-slide ${index === currentIndex ? "active" : ""}`}
-          >
-            <img src={image} alt={`Slide ${index}`} />
+    <>
+      <div className="hero">
+        <img src="resources/banner.png" alt="skitbit-imges"/>
+        <div className="arrows">
+          <div className="lla">
+          <div className="la" style={{color:'white'}}>&lt;</div>
           </div>
-        ))}
-      </div>
-
-      {/* Right Arrow */}
-      <button className="hero-slider-arrow hero-right-arrow" onClick={nextSlide}>
-        <div className="hero-arrow-circle">
-          <img src="/resources/rightarrow.png" alt="Right Arrow" />
+          <div className="rra">
+          <div className="ra" style={{color:'white'}}>&gt;</div>
+          </div>
         </div>
-      </button>
-
-      {/* Dots Indicator */}
-      <div className="hero-slider-dots">
-        {sliderImages.map((_, index) => (
-          <span
-            key={index}
-            className={`hero-dot ${index === currentIndex ? "hero-active-dot" : ""}`}
-            onClick={() => setCurrentIndex(index)}
-          ></span>
-        ))}
       </div>
-    </div>
+    </>
   );
-};
+}
 
+// width: 35px;
+// height: 35px;
 export default Hero;
+
+

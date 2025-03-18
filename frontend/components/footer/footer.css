@@ -78,7 +78,11 @@
     gap: 20px;
 }
 
-.social .fa{
+.social img{
+    width: 30px;
+}
+
+/* .social .fa{
     width: 144px;
     height: 38px;
     padding: 2%;
@@ -87,7 +91,7 @@
     justify-content: space-between;
     border: 1px solid #3B3C42;
     border-radius: 32px;
-}
+} */
 
 @media (max-width: 850px) {
     .footer{
@@ -102,11 +106,18 @@
         flex-direction: column;
         gap: 102px;
         font-size: 20px;
+        /* margin-right: 20px; */
+        margin-left: -38px;
     }
 
     .bot-foot{
+        border-top:1px solid white;
         flex-direction: column;
         gap: 9px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 60px;
+        margin-left: -40px;
     }
 
     .bot-foot span{

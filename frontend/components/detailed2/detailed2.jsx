@@ -36,8 +36,8 @@ const D2 = () => {
               <p>✔ Animation Compositing</p>
           </div>
         </div>
-        <div className="dmid1">
-            <p style={{color:"#62646A", width:"738px"}}>As a Senior 3D Artist, I create top-tier 3D models and animations from scratch based on your vision, references, or project briefs. Whether you need cinematic animations, game-ready assets, or furry character animations, I tailor each project to perfection.</p>
+        <div className="dmid2">
+            <p style={{color:"#62646A", width:"738px"}} className='spe'>As a Senior 3D Artist, I create top-tier 3D models and animations from scratch based on your vision, references, or project briefs. Whether you need cinematic animations, game-ready assets, or furry character animations, I tailor each project to perfection.</p>
             <p>From Vision to Visuals Quickly!</p>
             <p style={{marginTop:"-2px"}}>We responds quickly—often within 10 minutes. Feel free to connect with us to discuss your project! </p>
         </div>
